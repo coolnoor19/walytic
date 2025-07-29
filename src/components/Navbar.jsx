@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <div className="flex items-center gap-2 cursor-pointer">
-                    <img src="" alt="Walytic" className="h-6 w-6" />
+                    <img src="/logo.png" alt="Walytic" className="h-6 w-6" />
                     <h1 className="text-lg font-semibold">Walytic</h1>
                 </div>
 

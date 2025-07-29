@@ -53,7 +53,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-400">
-        © 2018 - 2025 Walytic
+        © 2022 - 2025 Walytic
       </div>
     </footer>
   );
