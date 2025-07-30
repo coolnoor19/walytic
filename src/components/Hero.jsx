@@ -21,11 +21,11 @@ export default function Hero() {
 
         <div className="flex gap-4 flex-wrap md:mt-4">
             <Link to="/signup">
-                <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-full transition">
+                <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-full transition cursor-pointer">
                 Get Started
                 </button>
             </Link>
-          <button className="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition">
+          <button className="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition cursor-pointer">
             Discover Solutions
           </button>
         </div>

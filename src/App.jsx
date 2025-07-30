@@ -11,6 +11,7 @@ import FeatureSection from './components/WhatIsWalytic'
 import ChooseUs from './components/WhyChooseWalytic'
 import SignUp from './page/SignUp'
 import SignIn from './page/SignIn'
+import Verify from './page/Verify'
 
 function HomePage() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/signin" element={<SignIn />} />
+      <Route path="/verify" element={<Verify/>}  />
     </Routes>
   );
 }

@@ -35,7 +35,7 @@ const FeatureSection = () => {
           What is <span className="text-[#00F0B5]">Walytic?</span>
         </h2>
         <p className="text-lg md:text-xl mb-6">
-          WbizTool is the most comprehensive WhatsApp business automation
+          Walytic is the most comprehensive WhatsApp business automation
           platform that transforms your WhatsApp into a powerful business tool.
           Beyond just messaging, we provide advanced features like automated
           reminders, number verification, and group management tools.

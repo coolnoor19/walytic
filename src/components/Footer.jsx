@@ -10,7 +10,7 @@ const Footer = () => {
             <img
               src="/logo.png" // replace with your logo path
               alt="Walytic"
-              className="w-8 h-8"
+              className="w-10 h-10"
             />
             <h2 className="text-xl font-semibold">Walytic</h2>
           </div>
