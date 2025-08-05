@@ -24,7 +24,7 @@ const Navbar = () => {
                 </ul>
 
                 {/* Register Button - Desktop */}
-                <Link to="/signup">
+                <Link to="">
                     <button className="bg-white text-black px-4 py-1 rounded hidden md:block cursor-pointer">Register</button>
                 </Link>
 
@@ -45,20 +45,6 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* Mobile Menu */}
-            {/* {isOpen && (
-                <div className="md:hidden mt-2 space-y-2 px-4">
-                    <ul className="flex flex-col items-center justify-center gap-2">
-                        <li>Home</li>
-                        <li>Affiliate</li>
-                        <li>Pricing</li>
-                        <li>Integration</li>
-                    </ul>
-                    <Link to="/signup">
-                        <button className="bg-white text-black px-4 py-1 rounded">Register</button>
-                    </Link>
-                </div>
-            )} */}
             {isOpen && (
                 <div className="md:hidden mt-2 px-4">
                     <div className="flex flex-col items-center justify-center space-y-2">
@@ -68,9 +54,9 @@ const Navbar = () => {
                             <li>Pricing</li>
                             <li>Integration</li>
                         </ul>
-                        <Link to="/signup">
+                       
                             <button className="bg-white text-black px-4 py-1 rounded">Register</button>
-                        </Link>
+                     
                     </div>
                 </div>
             )}
