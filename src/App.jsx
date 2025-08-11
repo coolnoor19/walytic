@@ -9,7 +9,8 @@ import Navbar from './components/Navbar'
 import PricingSection from './components/PricingSection'
 import FeatureSection from './components/WhatIsWalytic'
 import ChooseUs from './components/WhyChooseWalytic'
-
+import FreePlan from './components/FreePlan'
+import SendMessage from './components/SendMessage'
 
 function HomePage() {
   return (
@@ -21,7 +22,10 @@ function HomePage() {
       <PricingSection />
       <ContactSection />
       <FaqSection />
-      <Footer />     
+      <Footer />    
+      <FreePlan/>
+      <SendMessage/>
+
     </div>
   )
 }
