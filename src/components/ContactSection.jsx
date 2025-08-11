@@ -156,9 +156,9 @@ export default function ContactUs() {
       ></div>
 
       {/* Contact Footer */}
-      <div className="flex flex-wrap justify-center items-center gap-10 mt-12 text-center text-sm text-gray-300">
-        <div>
-          <div className="text-2xl">✉</div>
+      {/* <div className="flex flex-wrap justify-center items-center gap-10 mt-12 text-center text-sm text-gray-300">
+        <div className=" ">
+          <div className="text-2xl ">✉</div>
           <p className="mt-1">Email Us</p>
           <p className="text-white font-medium">info@walytic.com</p>
         </div>
@@ -172,7 +172,28 @@ export default function ContactUs() {
           <p className="mt-1">Follow Us</p>
           <p className="text-white font-medium">@walytic</p>
         </div>
+      </div> */}
+
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12 text-center text-sm text-gray-300 w-full max-w-4xl mx-auto">
+        <div className="flex flex-col items-center p-4 bg-gray-800 rounded-lg">
+          <div className="text-3xl">✉</div>
+          <p className="mt-2">Email Us</p>
+          <p className="text-white font-medium">info@walytic.com</p>
+        </div>
+
+        <div className="flex flex-col items-center p-4 bg-gray-800 rounded-lg">
+          <div className="text-3xl">💬</div>
+          <p className="mt-2">WhatsApp Us</p>
+          <p className="text-white font-medium">Start a Chat</p>
+        </div>
+
+        <div className="flex flex-col items-center p-4 bg-gray-800 rounded-lg">
+          <div className="text-3xl">🌐</div>
+          <p className="mt-2">Follow Us</p>
+          <p className="text-white font-medium">@walytic</p>
+        </div>
       </div>
+
     </div>
   );
 }
